@@ -1,0 +1,31 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node (caso usado futuramente)
+node_modules/
+dist/
+.cache/
+
+# Outros
+*.swp
+*.tmp
+.env
+.env.local
+.env.*
+
+# Arquivos de build/preview
+*.zip
+*.bak
+*.old
