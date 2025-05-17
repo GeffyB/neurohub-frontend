@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn ease 2s forwards;
+      animation-delay: 0.5s;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 pb-20 relative">
+
+  <!-- 🌙 Overlay global (suaviza tudo) -->
+  <div class="fixed inset-0 bg-black bg-opacity-10 z-0 pointer-events-none"></div>
+
+  <!-- 🧩 Banner Puzzle no fundo -->
+  <div class="absolute top-0 left-0 w-full z-0">
+    <img src="assets/banners/banner-puzzle.png" alt="Banner com peças NeuroHub"
+         class="w-full h-auto">
+  </div>
+
+  <!-- 🔁 Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50 md:flex md:items-center md:justify-between px-6 py-3">
+    <div class="flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-2">
+        <img src="assets/logo.png" alt="Logo NeuroHub" class="h-8">
+      </a>
+    </div>
+    <ul class="hidden md:flex space-x-6 text-gray-700 font-medium">
+      <li><a href="pages/aprender.html" class="hover:text-[#4A90E2]">Aprender</a></li>
+      <li><a href="pages/jogar.html" class="hover:text-[#4A90E2]">Jogar</a></li>
+      <li><a href="pages/organizar.html" class="hover:text-[#4A90E2]">Organizar</a></li>
+      <li><a href="pages/conectar.html" class="hover:text-[#4A90E2]">Conectar</a></li>
+      <li><a href="pages/explorar.html" class="hover:text-[#4A90E2]">Explorar</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🎯 Conteúdo central com sobreposição -->
+  <main class="relative z-10 flex flex-col items-center text-center text-gray-700 px-6 pt-40">
+    <img src="assets/logos-variantes/logo1.png" alt="Logo NeuroHub visual" class="h-64 mb-2">
+
+    <blockquote class="italic text-base max-w-xl mx-auto text-gray-600 border-l-4 border-[#7B61FF] pl-4 fade-in">
+      Seja bem-vindo ao <strong>NeuroHub</strong> — um ecossistema criado para transformar a relação entre neurodivergência, aprendizado e cuidado.  
+      Aqui, pessoas neurodivergentes encontram ferramentas acessíveis e acolhedoras para viver, aprender e se expressar do seu jeito.  
+      E profissionais da saúde e educação têm acesso a conteúdos técnicos, certificações práticas e uma comunidade que valoriza o saber com empatia.  
+      <strong>Você está no lugar certo — para ser cuidado, para cuidar e para crescer junto.</strong>
+    </blockquote>
+
+    <div class="flex justify-center gap-4 mt-8 flex-wrap">
+      <a href="pages/login-profissional.html" class="bg-[#7B61FF] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#684EDC] transition">
+        Sou profissional
+      </a>
+      <a href="pages/login-paciente.html" class="bg-[#4A90E2] text-white px-4 py-2 rounded-lg font-semibold hover:bg-[#3772b2] transition">
+        Sou paciente
+      </a>
+    </div>
+
+    <a href="pages/aprender.html" class="inline-block bg-gray-200 text-gray-700 px-6 py-2 rounded-xl font-semibold hover:bg-gray-300 transition w-72 mt-4">
+      Continuar sem login
+    </a>
+  </main>
+
+  <!-- 🔚 Rodapé -->
+  <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-12 relative z-10">
+    <div>
+      © NeuroHub – 2024. Todos os direitos reservados.
+    </div>
+    <div class="mt-1">
+      <a href="pages/consultoria.html" class="text-blue-500 hover:underline">Consultoria</a> |
+      <a href="pages/franquia.html" class="text-blue-500 hover:underline">Franquia</a> |
+      <a href="#" class="text-blue-500 hover:underline">Política de Privacidade</a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -46,7 +46,7 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 ## Versão Atual
 
-- **v0.1.0** – Estrutura inicial com páginas e componentes criados para navegação visual simulada
+- **v0.2.0** – Página inicial implementada com identidade visual, navegação simulada e responsividade
 
 ---
 
@@ -54,6 +54,7 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 | Versão   | Data       | Descrição                                                        |
 |----------|------------|------------------------------------------------------------------|
+| v0.2.0   | 2025-05-17 | Implementação visual da home: logo, banner, texto de boas-vindas, navbar    |
 | v0.1.0   | 2025-05-17 | Setup do projeto + estrutura de arquivos e pastas (HTML base)    |
 
 ---
