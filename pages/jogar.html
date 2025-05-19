@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogar | NeuroHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50 px-6 py-3">
+    <div class="flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2">
+        <img src="../assets/logo.png" alt="Logo NeuroHub" class="h-8">
+      </a>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium items-center">
+        <li><a href="aprender.html" class="hover:text-[#4A90E2]">Aprender</a></li>
+        <li><a href="jogar.html" class="bg-[#E0E7FF] text-[#4A90E2] px-4 py-2 rounded-xl font-bold">Jogar</a></li>
+        <li><a href="organizar.html" class="hover:text-[#4A90E2]">Organizar</a></li>
+        <li><a href="conectar.html" class="hover:text-[#4A90E2]">Conectar</a></li>
+        <li><a href="explorar.html" class="hover:text-[#4A90E2]">Explorar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="flex-1 container mx-auto px-6 pt-32 pb-12">
+
+    <!-- Título e subtítulo -->
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h1 class="text-2xl font-bold text-[#5271FF] mb-2">Escolha seu jogo e comece a explorar suas habilidades!</h1>
+      <p class="text-gray-600 text-sm">Os jogos abaixo estimulam sua atenção, memória, lógica e muito mais.</p>
+    </div>
+
+    <!-- Cards dos jogos -->
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Jogo 1 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-memoria.jpg" alt="Jogo da Memória" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Jogo da Memória com Emojis</h2>
+          <button class="mt-auto bg-[#5271FF] text-white font-semibold py-2 px-4 rounded-xl hover:bg-[#415BCC] transition">Jogar</button>
+        </div>
+      </div>
+
+      <!-- Jogo 2 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-cores.jpg" alt="Jogo das Cores" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Jogo das Cores e Formas</h2>
+          <button class="mt-auto bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-xl cursor-not-allowed" disabled>Em breve</button>
+        </div>
+      </div>
+
+      <!-- Jogo 3 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-sons.jpg" alt="Sequência de Sons" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Sequência de Sons e Luzes</h2>
+          <button class="mt-auto bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-xl cursor-not-allowed" disabled>Em breve</button>
+        </div>
+      </div>
+
+      <!-- Jogo 4 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-labirinto.jpg" alt="Labirinto" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Labirinto Visual com Recompensa</h2>
+          <button class="mt-auto bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-xl cursor-not-allowed" disabled>Em breve</button>
+        </div>
+      </div>
+
+      <!-- Jogo 5 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-associacao.jpg" alt="Associação" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Associação Visual e Palavra</h2>
+          <button class="mt-auto bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-xl cursor-not-allowed" disabled>Em breve</button>
+        </div>
+      </div>
+
+      <!-- Jogo 6 -->
+      <div class="bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden flex flex-col">
+        <img src="../assets/thumbs/thumb-puzzle.jpg" alt="Puzzle" class="w-full h-40 object-cover">
+        <div class="p-4 text-center flex-1 flex flex-col justify-between">
+          <h2 class="font-semibold text-gray-700 mb-2">Puzzle de Organização Temporal</h2>
+          <button class="mt-auto bg-gray-300 text-gray-500 font-semibold py-2 px-4 rounded-xl cursor-not-allowed" disabled>Em breve</button>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-auto">
+    <div>© NeuroHub – 2024. Todos os direitos reservados.</div>
+    <div class="mt-1">
+      <a href="consultoria.html" class="text-blue-500 hover:underline">Consultoria</a> |
+      <a href="franquia.html" class="text-blue-500 hover:underline">Franquia</a> |
+      <a href="#" class="text-blue-500 hover:underline">Política de Privacidade</a>
+    </div>
+  </footer>
+
+</body>
+</html>

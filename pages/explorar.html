@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explorar | NeuroHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50 px-6 py-3">
+    <div class="flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2">
+        <img src="../assets/logo.png" alt="Logo NeuroHub" class="h-8">
+      </a>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium items-center">
+        <li><a href="aprender.html" class="hover:text-[#4A90E2]">Aprender</a></li>
+        <li><a href="jogar.html" class="hover:text-[#4A90E2]">Jogar</a></li>
+        <li><a href="organizar.html" class="hover:text-[#4A90E2]">Organizar</a></li>
+        <li><a href="conectar.html" class="hover:text-[#4A90E2]">Conectar</a></li>
+        <li><a href="explorar.html" class="bg-[#E0E7FF] text-[#4A90E2] px-4 py-2 rounded-xl font-bold">Explorar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="flex-1 container mx-auto px-6 pt-32 pb-12 max-w-5xl">
+
+    <!-- Frase de boas-vindas -->
+    <div class="text-center mb-8">
+      <h1 class="text-2xl font-bold text-[#5271FF] mb-2">Descubra o que o NeuroHub tem para você hoje</h1>
+      <p class="text-gray-600">Explore conteúdos visuais, leituras leves e áudios para cada momento do seu dia.</p>
+    </div>
+
+    <!-- Filtros -->
+    <div class="flex flex-wrap justify-center gap-4 mb-6">
+      <button class="px-4 py-2 rounded-xl bg-white border hover:bg-[#E0E7FF] text-sm font-semibold">📺 Quero ver</button>
+      <button class="px-4 py-2 rounded-xl bg-white border hover:bg-[#E0E7FF] text-sm font-semibold">📖 Quero ler</button>
+      <button class="px-4 py-2 rounded-xl bg-white border hover:bg-[#E0E7FF] text-sm font-semibold">🎧 Quero ouvir</button>
+    </div>
+
+    <!-- Busca -->
+    <div class="mb-10 text-center">
+      <input type="text" placeholder="Buscar por temas..." class="w-full md:w-2/3 border border-gray-300 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-[#5271FF] focus:border-[#5271FF]" />
+    </div>
+
+    <!-- Cards -->
+    <section class="grid md:grid-cols-3 gap-6 mb-10">
+      <div class="bg-white rounded-xl shadow p-4">
+        <div class="text-3xl">📺</div>
+        <h2 class="font-semibold mt-2">Vídeo: A hora do foco</h2>
+        <p class="text-sm text-gray-600">Duração: 4min • Categoria: Estudo</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4">
+        <div class="text-3xl">📖</div>
+        <h2 class="font-semibold mt-2">Texto: Como montar uma rotina simples</h2>
+        <p class="text-sm text-gray-600">Leitura leve • Categoria: Organização</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4">
+        <div class="text-3xl">🎧</div>
+        <h2 class="font-semibold mt-2">Áudio: Meditação rápida para crianças</h2>
+        <p class="text-sm text-gray-600">Duração: 3min • Categoria: Relaxamento</p>
+      </div>
+    </section>
+
+    <!-- IA Recomenda -->
+    <div class="bg-[#F0F4FF] p-6 rounded-xl text-center mb-10">
+      <h3 class="text-lg font-semibold text-[#5271FF] mb-2">✨ Recomendação inteligente</h3>
+      <p class="text-sm text-gray-600 mb-4">Nosso sistema de IA está aprendendo sobre você para recomendar conteúdos sob medida.</p>
+      <button class="bg-[#5271FF] text-white px-6 py-2 rounded-xl font-semibold hover:bg-[#415BCC]">Recomende algo para mim</button>
+    </div>
+
+    <!-- Em breve -->
+    <div class="bg-white border border-dashed border-gray-300 p-6 rounded-xl text-center text-gray-500 text-sm">
+      Em breve: o NeuroHub vai sugerir automaticamente conteúdos com base no seu humor, preferências e tempo disponível!
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-auto">
+    <div>© NeuroHub – 2024. Todos os direitos reservados.</div>
+    <div class="mt-1">
+      <a href="consultoria.html" class="text-blue-500 hover:underline">Consultoria</a> |
+      <a href="franquia.html" class="text-blue-500 hover:underline">Franquia</a> |
+      <a href="#" class="text-blue-500 hover:underline">Política de Privacidade</a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Organizar | NeuroHub</title>
+  <title>Diário Emocional | NeuroHub</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css" />
@@ -26,31 +26,31 @@
     </div>
   </nav>
 
-  <main class="flex-1 container mx-auto px-6 pt-32 pb-12 md:flex md:gap-6">
+  <main class="flex-1 container mx-auto px-6 pt-32 pb-12 max-w-3xl">
+    <div class="text-center mb-8">
+      <h1 class="text-2xl font-bold text-[#5271FF] mb-2">Como você está se sentindo hoje?</h1>
+      <p class="text-gray-600 text-sm">Use seu diário emocional para registrar pensamentos, sentimentos e experiências do seu dia</p>
+    </div>
 
-    <!-- Menu lateral -->
-    <aside class="bg-[#F6F6F6] p-4 rounded-xl mb-6 md:w-64 md:shrink-0">
-      <h2 class="text-sm font-semibold mb-4 text-gray-700">Ferramentas de Organização</h2>
-      <nav class="space-y-2">
-        <a href="rotina.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Criador de Rotina Visual</a>
-        <a href="pomodoro.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Pomodoro Visual</a>
-        <a href="diario.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Diário Emocional</a>
-        <a href="recompensas.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Recompensas</a>
-      </nav>
-    </aside>
+    <!-- Emojis -->
+    <div class="flex justify-center gap-4 text-3xl mb-6">
+      <button class="hover:scale-125 transition">😊</button>
+      <button class="hover:scale-125 transition">😢</button>
+      <button class="hover:scale-125 transition">😡</button>
+      <button class="hover:scale-125 transition">😴</button>
+      <button class="hover:scale-125 transition">😃</button>
+    </div>
 
-    <!-- Conteúdo principal -->
-    <section class="flex-1">
-      <div class="bg-white p-6 rounded-2xl shadow max-w-2xl mx-auto text-gray-700">
-        <h1 class="text-2xl font-bold text-[#5271FF] mb-4">Organize sua rotina com clareza, leveza e propósito.</h1>
-        <p class="text-lg leading-relaxed">
-          Aqui você encontra ferramentas para cuidar da sua rotina, do seu tempo e do seu bem-estar. 
-          <br/><br/>
-          Escolha no menu ao lado por onde começar — tudo foi pensado para acompanhar seu ritmo e suas necessidades.
-        </p>
-      </div>
-    </section>
+    <!-- Caixa de texto -->
+    <div>
+      <label for="entry" class="block text-sm font-medium text-gray-700 mb-1">Escreva aqui:</label>
+      <textarea id="entry" rows="6" class="w-full p-4 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-[#5271FF] focus:border-[#5271FF] resize-none"></textarea>
+    </div>
 
+    <!-- Botão -->
+    <div class="text-center mt-6">
+      <button class="bg-[#5271FF] text-white px-6 py-2 rounded-xl font-semibold hover:bg-[#415BCC] transition">Salvar entrada</button>
+    </div>
   </main>
 
   <!-- Footer -->

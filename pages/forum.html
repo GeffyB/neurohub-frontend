@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fórum da Comunidade | NeuroHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50 px-6 py-3">
+    <div class="flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2">
+        <img src="../assets/logo.png" alt="Logo NeuroHub" class="h-8">
+      </a>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium items-center">
+        <li><a href="aprender.html" class="hover:text-[#4A90E2]">Aprender</a></li>
+        <li><a href="jogar.html" class="hover:text-[#4A90E2]">Jogar</a></li>
+        <li><a href="organizar.html" class="hover:text-[#4A90E2]">Organizar</a></li>
+        <li><a href="conectar.html" class="bg-[#E0E7FF] text-[#4A90E2] px-4 py-2 rounded-xl font-bold">Conectar</a></li>
+        <li><a href="explorar.html" class="hover:text-[#4A90E2]">Explorar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="flex-1 container mx-auto px-6 pt-32 pb-12 flex gap-6">
+    <!-- Menu lateral de conectar -->
+    <aside class="hidden md:block w-64 bg-[#F6F6F6] p-4 rounded-xl">
+      <h2 class="text-sm font-semibold mb-4 text-gray-700">Conectar com...</h2>
+      <nav class="space-y-2">
+        <a href="forum.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border">Fórum da Comunidade</a>
+        <a href="familias.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border">Para Famílias</a>
+        <a href="educadores.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border">Para Educadores</a>
+        <a href="tecnico.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border">Conteúdo Técnico</a>
+        <a href="mentorias.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#999] bg-white border cursor-not-allowed" disabled>Mentorias (em breve)</a>
+        <a href="sugestoes.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border">Sugestões</a>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <section class="flex-1">
+      <div class="mb-8">
+        <h1 class="text-2xl font-bold text-[#5271FF] mb-2">Fórum da Comunidade NeuroHub</h1>
+        <p class="text-gray-600 text-sm">Um espaço de troca entre famílias, educadores e profissionais</p>
+      </div>
+
+      <!-- Tópico 1 -->
+      <div class="bg-white p-6 rounded-2xl shadow mb-10">
+        <h2 class="text-xl font-bold text-gray-800 mb-1">Seletividade alimentar: o que fazer?</h2>
+        <p class="text-sm text-gray-500 mb-2">Criado por <strong>Dra. Joana Mendes</strong> – Psicóloga Infantil</p>
+        <p class="text-gray-700 mb-4">Crianças com seletividade alimentar enfrentam desafios tanto fisiológicos quanto emocionais. Neste artigo, compartilho abordagens que funcionaram com meus pacientes e que podem ajudar sua família também.</p>
+        <a href="#" class="text-blue-500 text-sm font-semibold hover:underline">Saiba mais no artigo completo</a>
+        <div class="mt-4 flex gap-4 mb-4">
+          <button class="text-sm px-4 py-2 bg-gray-200 rounded-xl hover:bg-gray-300">👍 Curtir</button>
+          <button class="text-sm px-4 py-2 bg-gray-200 rounded-xl hover:bg-gray-300">💬 Responder</button>
+        </div>
+
+        <!-- Comentários aninhados -->
+        <div class="space-y-4">
+          <div class="bg-gray-50 p-4 rounded-xl">
+            <div class="flex items-center mb-2">
+              <img src="../assets/icons/user1.png" class="h-8 w-8 rounded-full mr-2" alt="Avatar">
+              <span class="font-semibold text-gray-800">Pedro Silveira</span>
+            </div>
+            <p class="text-gray-700">Meu filho só come alimentos amarelos e nós adotamos uma estratégia de montar pratos coloridos com ele ajudando na cozinha. Tem dado super certo!</p>
+          </div>
+
+          <div class="bg-gray-50 p-4 rounded-xl">
+            <div class="flex items-center mb-2">
+              <img src="../assets/icons/user2.png" class="h-8 w-8 rounded-full mr-2" alt="Avatar">
+              <span class="font-semibold text-gray-800">Lara Moreira</span>
+            </div>
+            <p class="text-gray-700">Obrigado Dra. Joana, vou tentar aplicar isso com meu sobrinho que também tem muita dificuldade com texturas!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tópico 2 -->
+      <div class="bg-white p-6 rounded-2xl shadow mb-10">
+        <h2 class="text-xl font-bold text-gray-800 mb-1">Rotinas visuais em casa: como adaptar?</h2>
+        <p class="text-sm text-gray-500 mb-2">Criado por <strong>Profa. Helena Tavares</strong> – Terapeuta Ocupacional</p>
+        <p class="text-gray-700 mb-4">As rotinas visuais ajudam a estruturar o dia a dia de crianças neurodivergentes. Aqui estão formas simples de criar esses recursos com materiais que você já tem em casa.</p>
+        <a href="#" class="text-blue-500 text-sm font-semibold hover:underline">Saiba mais na dica completa</a>
+        <div class="mt-4 flex gap-4 mb-4">
+          <button class="text-sm px-4 py-2 bg-gray-200 rounded-xl hover:bg-gray-300">👍 Curtir</button>
+          <button class="text-sm px-4 py-2 bg-gray-200 rounded-xl hover:bg-gray-300">💬 Responder</button>
+        </div>
+
+        <div class="space-y-4">
+          <div class="bg-gray-50 p-4 rounded-xl">
+            <div class="flex items-center mb-2">
+              <img src="../assets/icons/user3.png" class="h-8 w-8 rounded-full mr-2" alt="Avatar">
+              <span class="font-semibold text-gray-800">Mariana Lopes</span>
+            </div>
+            <p class="text-gray-700">A gente começou usando quadros com ícones e imãs — funcionou muito bem!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lateral do fórum -->
+    <aside class="hidden lg:block w-64">
+      <div class="bg-white p-4 rounded-xl shadow">
+        <h2 class="text-sm font-semibold text-gray-700 mb-4">Explorar Fórum</h2>
+        <ul class="text-sm text-gray-600 space-y-2">
+          <li><a href="#" class="hover:text-[#5271FF]">Assuntos em alta</a></li>
+          <li><a href="#" class="hover:text-[#5271FF]">Mais recentes</a></li>
+          <li><a href="#" class="hover:text-[#5271FF]">Mais comentados</a></li>
+          <li><a href="#" class="hover:text-[#5271FF]">Contribuições de especialistas</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-auto">
+    <div>© NeuroHub – 2024. Todos os direitos reservados.</div>
+    <div class="mt-1">
+      <a href="consultoria.html" class="text-blue-500 hover:underline">Consultoria</a> |
+      <a href="franquia.html" class="text-blue-500 hover:underline">Franquia</a> |
+      <a href="#" class="text-blue-500 hover:underline">Política de Privacidade</a>
+    </div>
+  </footer>
+
+</body>
+</html>

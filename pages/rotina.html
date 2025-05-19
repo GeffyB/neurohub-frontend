@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criador de Rotina Visual | NeuroHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50 px-6 py-3">
+    <div class="flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2">
+        <img src="../assets/logo.png" alt="Logo NeuroHub" class="h-8">
+      </a>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium items-center">
+        <li><a href="aprender.html" class="hover:text-[#4A90E2]">Aprender</a></li>
+        <li><a href="jogar.html" class="hover:text-[#4A90E2]">Jogar</a></li>
+        <li><a href="organizar.html" class="bg-[#E0E7FF] text-[#4A90E2] px-4 py-2 rounded-xl font-bold">Organizar</a></li>
+        <li><a href="conectar.html" class="hover:text-[#4A90E2]">Conectar</a></li>
+        <li><a href="explorar.html" class="hover:text-[#4A90E2]">Explorar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="flex-1 container mx-auto px-6 pt-32 pb-12">
+
+    <!-- Título e subtítulo -->
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h1 class="text-2xl font-bold text-[#5271FF] mb-2">Planeje sua rotina de forma visual e intuitiva</h1>
+      <p class="text-gray-600 text-sm">Organize suas atividades diárias com clareza e facilidade</p>
+    </div>
+
+    <!-- Tabela de Rotina -->
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-xl shadow-md">
+        <thead>
+          <tr>
+            <th class="px-4 py-2 border">Período</th>
+            <th class="px-4 py-2 border">Segunda</th>
+            <th class="px-4 py-2 border">Terça</th>
+            <th class="px-4 py-2 border">Quarta</th>
+            <th class="px-4 py-2 border">Quinta</th>
+            <th class="px-4 py-2 border">Sexta</th>
+            <th class="px-4 py-2 border">Sábado</th>
+            <th class="px-4 py-2 border">Domingo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-4 py-2 border font-semibold">Manhã</td>
+            <td class="px-4 py-2 border text-center">🏃‍♂️ Exercício</td>
+            <td class="px-4 py-2 border text-center">📚 Estudo</td>
+            <td class="px-4 py-2 border text-center">🧘‍♀️ Meditação</td>
+            <td class="px-4 py-2 border text-center">📝 Planejamento</td>
+            <td class="px-4 py-2 border text-center">💼 Trabalho</td>
+            <td class="px-4 py-2 border text-center">🧹 Limpeza</td>
+            <td class="px-4 py-2 border text-center">☕ Relaxar</td>
+          </tr>
+          <tr class="bg-gray-100">
+            <td class="px-4 py-2 border font-semibold">Tarde</td>
+            <td class="px-4 py-2 border text-center">💻 Trabalho</td>
+            <td class="px-4 py-2 border text-center">🎨 Criatividade</td>
+            <td class="px-4 py-2 border text-center">📞 Reuniões</td>
+            <td class="px-4 py-2 border text-center">🛒 Compras</td>
+            <td class="px-4 py-2 border text-center">📚 Leitura</td>
+            <td class="px-4 py-2 border text-center">🎮 Lazer</td>
+            <td class="px-4 py-2 border text-center">🚶‍♂️ Caminhada</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2 border font-semibold">Noite</td>
+            <td class="px-4 py-2 border text-center">🍽️ Jantar</td>
+            <td class="px-4 py-2 border text-center">📺 TV</td>
+            <td class="px-4 py-2 border text-center">🛁 Banho</td>
+            <td class="px-4 py-2 border text-center">📖 Leitura</td>
+            <td class="px-4 py-2 border text-center">📝 Diário</td>
+            <td class="px-4 py-2 border text-center">🎵 Música</td>
+            <td class="px-4 py-2 border text-center">😴 Dormir</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Botões de Ação -->
+    <div class="flex justify-center mt-6 space-x-4">
+      <button class="bg-[#5271FF] text-white font-semibold py-2 px-4 rounded-xl hover:bg-[#415BCC] transition">Adicionar Atividade</button>
+      <button class="bg-green-500 text-white font-semibold py-2 px-4 rounded-xl hover:bg-green-600 transition">Salvar Rotina</button>
+      <button class="bg-red-500 text-white font-semibold py-2 px-4 rounded-xl hover:bg-red-600 transition">Limpar Rotina</button>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-auto">
+    <div>© NeuroHub – 2024. Todos os direitos reservados.</div>
+    <div class="mt-1">
+      <a href="consultoria.html" class="text-blue-500 hover:underline">Consultoria</a> |
+      <a href="franquia.html" class="text-blue-500 hover:underline">Franquia</a> |
+      <a href="#" class="text-blue-500 hover:underline">Política de Privacidade</a>
+    </div>
+  </footer>
+
+</body>
+</html>

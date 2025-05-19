@@ -1,4 +1,3 @@
-
 # 🧠 NeuroHub – Portal Digital para Neurodivergência
 
 **Cada peça importa. Cada mente conta.**
@@ -30,6 +29,11 @@ Este é o MVP do **NeuroHub**, um portal web responsivo para acolher, educar e e
 | `/pages/jogar`              | Mini-jogos cognitivos e gamificação                                   |
 | `/pages/organizar`          | Ferramentas de rotina, Pomodoro, diário emocional                     |
 | `/pages/conectar`           | Artigos e fórum para pais, educadores e profissionais                 |
+| `/pages/familias`           | Conteúdos de apoio para pais e cuidadores                             |
+| `/pages/educadores`         | Materiais e práticas para ambientes inclusivos                        |
+| `/pages/tecnico`            | Conteúdo técnico e normativo para especialistas                       |
+| `/pages/mentorias`          | Mentorias especializadas (em breve)                                   |
+| `/pages/sugestoes`          | Formulário de ideias e melhorias do portal                            |
 | `/pages/explorar`           | Biblioteca multimodal e IA recomendadora (mock)                       |
 | `/pages/consultoria`        | Página institucional de consultoria pedagógica/clínica                |
 | `/pages/franquia`           | Modelo de franquia NeuroHub para clínicas físicas                     |
@@ -43,6 +47,7 @@ Este é o MVP do **NeuroHub**, um portal web responsivo para acolher, educar e e
 git clone https://github.com/seu-usuario/neurohub-frontend.git
 cd neurohub-frontend
 code .
+```
 
 Abra `index.html` com Live Server ou diretamente em seu navegador.
 
@@ -50,7 +55,7 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 ## Versão Atual
 
-- **v0.3.0** – MVP da área “Aprender” com páginas temáticas, cards e navegação funcional
+- **v0.4.0** – MVP completo com todas as páginas do menu e funcionalidades visuais implementadas
 
 ---
 
@@ -58,8 +63,9 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 | Versão   | Data       | Descrição                                                        |
 |----------|------------|------------------------------------------------------------------|
-| v0.3.0   | 2025-05-19 | Implementação da área “Aprender” com subpáginas e layout responsivo    |
-| v0.2.0   | 2025-05-17 | Implementação visual da home: logo, banner, texto de boas-vindas, navbar    |
+| v0.4.0   | 2025-05-19 | Todas as páginas principais criadas (Aprender, Jogar, Organizar, Conectar, Explorar) com layout funcional, CTA e mock de dados |
+| v0.3.0   | 2025-05-19 | Implementação da área “Aprender” com subpáginas e layout responsivo |
+| v0.2.0   | 2025-05-17 | Implementação visual da home: logo, banner, texto de boas-vindas, navbar |
 | v0.1.0   | 2025-05-17 | Setup do projeto + estrutura de arquivos e pastas (HTML base)    |
 
 ---
@@ -80,7 +86,6 @@ Todos os direitos sobre:
 - Estrutura funcional e técnica do portal
 - Documentação, plano de negócios e roadmap estratégico
 - Lógica pedagógica, arquitetura informacional e jornada do usuário
-
 
 Qualquer uso fora dos termos acima poderá incorrer em responsabilidade civil conforme legislação aplicável.
 
