@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aprender | NeuroHub</title>
+  <title>Alfabetização Inicial | NeuroHub</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
 
-  <!-- ⚙️ Navbar do NeuroHub -->
+  <!-- Navbar -->
   <nav class="bg-white shadow-md fixed w-full top-0 z-50 px-6 py-3">
     <div class="flex items-center justify-between">
       <a href="../index.html" class="flex items-center gap-2">
@@ -26,14 +26,13 @@
     </div>
   </nav>
 
-  <!-- Conteúdo da página -->
   <main class="flex-1 container mx-auto px-6 pt-32 pb-12 md:flex md:gap-6">
 
-    <!-- Menu lateral com links relativos -->
+    <!-- Menu lateral -->
     <aside class="bg-[#F6F6F6] p-4 rounded-xl mb-6 md:w-64 md:shrink-0">
       <h2 class="text-sm font-semibold mb-4 text-gray-700">Categorias de Aprendizado</h2>
       <nav class="space-y-2">
-        <a href="alfabetizacao.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Alfabetização Inicial</a>
+        <a href="alfabetizacao.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold bg-[#5271FF] text-white shadow">Alfabetização Inicial</a>
         <a href="matematica.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Matemática Básica</a>
         <a href="habilidades.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Habilidades Socioemocionais</a>
         <a href="reforco-visual.html" class="block w-full text-left px-4 py-2 rounded-xl font-semibold text-[#5271FF] bg-white border hover:bg-[#E0E7FF]">Reforço Visual e Lúdico</a>
@@ -43,19 +42,33 @@
 
     <!-- Conteúdo principal -->
     <section class="flex-1">
-      <div class="bg-white p-6 rounded-2xl shadow max-w-2xl mx-auto text-gray-700">
-        <h1 class="text-2xl font-bold text-[#5271FF] mb-4">Bem-vindo à sua jornada de aprendizado 🧠</h1>
-        <p class="text-lg leading-relaxed">
-          Aqui no NeuroHub, aprender é diferente: é no seu tempo, do seu jeito, com conteúdos visuais, lúdicos e pensados especialmente para perfis diversos.
-          <br/><br/>
-          Comece escolhendo no menu ao lado o que você quer explorar hoje. Estamos aqui para caminhar junto com você — cada passo importa.
-        </p>
+      <h1 class="text-xl font-bold text-[#5271FF] mb-6">O que você quer aprender hoje sobre Alfabetização Inicial?</h1>
+
+      <!-- Cards visuais -->
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card 1 -->
+        <div class="rounded-xl bg-white shadow hover:shadow-md transition overflow-hidden">
+          <img src="../assets/thumbs/thumb-flashcard.jpg" alt="Flashcard" class="w-full h-40 object-cover">
+          <div class="p-4 font-semibold text-center text-gray-700">Flashcards: Letras e Sons</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="rounded-xl bg-white shadow hover:shadow-md transition overflow-hidden">
+          <img src="../assets/thumbs/thumb-vogais.jpg" alt="Vídeo educativo" class="w-full h-40 object-cover">
+          <div class="p-4 font-semibold text-center text-gray-700">Vídeo: Sons das Vogais</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="rounded-xl bg-white shadow hover:shadow-md transition overflow-hidden">
+          <img src="../assets/thumbs/thumb-trilha.jpg" alt="Trilha visual" class="w-full h-40 object-cover">
+          <div class="p-4 font-semibold text-center text-gray-700">Trilha: Leitura Inicial</div>
+        </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ⚙️ Footer do NeuroHub -->
+  <!-- Footer -->
   <footer class="bg-[#F2F4F8] text-center text-sm text-gray-600 py-4 mt-auto">
     <div>© NeuroHub – 2024. Todos os direitos reservados.</div>
     <div class="mt-1">

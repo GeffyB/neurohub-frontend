@@ -18,17 +18,22 @@ Este é o MVP do **NeuroHub**, um portal web responsivo para acolher, educar e e
 
 ## Estrutura de Páginas
 
-| Rota                  | Descrição                                                  |
-|------------------------|------------------------------------------------------------|
-| `/`                   | Página inicial                                              |
-| `/pages/aprender`     | Área de cursos e microconteúdos adaptados                  |
-| `/pages/jogar`        | Mini-jogos cognitivos e gamificação                         |
-| `/pages/organizar`    | Ferramentas de rotina, Pomodoro, diário emocional           |
-| `/pages/conectar`     | Artigos e fórum para pais, educadores e profissionais       |
-| `/pages/explorar`     | Biblioteca multimodal e IA recomendadora (mock)             |
-| `/pages/consultoria`  | Página institucional de consultoria pedagógica/clínica      |
-| `/pages/franquia`     | Modelo de franquia NeuroHub para clínicas físicas           |
-| `/pages/loja`         | Loja de materiais físicos e pedagógicos                     |
+| Rota                        | Descrição                                                             |
+|-----------------------------|------------------------------------------------------------------------|
+| `/`                         | Página inicial                                                         |
+| `/pages/aprender`           | Área de cursos e microconteúdos adaptados                             |
+| `/pages/alfabetizacao`      | Alfabetização inicial com cards visuais                               |
+| `/pages/matematica`         | Matemática básica com flashcards e trilhas                            |
+| `/pages/habilidades`        | Habilidades socioemocionais: empatia, emoções                         |
+| `/pages/reforco-visual`     | Em breve: recursos visuais e lúdicos                                  |
+| `/pages/recomendacoes-ia`   | Recomendação inteligente de trilhas de aprendizado                    |
+| `/pages/jogar`              | Mini-jogos cognitivos e gamificação                                   |
+| `/pages/organizar`          | Ferramentas de rotina, Pomodoro, diário emocional                     |
+| `/pages/conectar`           | Artigos e fórum para pais, educadores e profissionais                 |
+| `/pages/explorar`           | Biblioteca multimodal e IA recomendadora (mock)                       |
+| `/pages/consultoria`        | Página institucional de consultoria pedagógica/clínica                |
+| `/pages/franquia`           | Modelo de franquia NeuroHub para clínicas físicas                     |
+| `/pages/loja`               | Loja de materiais físicos e pedagógicos                               |
 
 ---
 
@@ -38,7 +43,6 @@ Este é o MVP do **NeuroHub**, um portal web responsivo para acolher, educar e e
 git clone https://github.com/seu-usuario/neurohub-frontend.git
 cd neurohub-frontend
 code .
-```
 
 Abra `index.html` com Live Server ou diretamente em seu navegador.
 
@@ -46,7 +50,7 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 ## Versão Atual
 
-- **v0.2.0** – Página inicial implementada com identidade visual, navegação simulada e responsividade
+- **v0.3.0** – MVP da área “Aprender” com páginas temáticas, cards e navegação funcional
 
 ---
 
@@ -54,6 +58,7 @@ Abra `index.html` com Live Server ou diretamente em seu navegador.
 
 | Versão   | Data       | Descrição                                                        |
 |----------|------------|------------------------------------------------------------------|
+| v0.3.0   | 2025-05-19 | Implementação da área “Aprender” com subpáginas e layout responsivo    |
 | v0.2.0   | 2025-05-17 | Implementação visual da home: logo, banner, texto de boas-vindas, navbar    |
 | v0.1.0   | 2025-05-17 | Setup do projeto + estrutura de arquivos e pastas (HTML base)    |
 
